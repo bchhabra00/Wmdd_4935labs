@@ -14,7 +14,7 @@ fs.readdir(dirname, function(error, data){
         var y = data[i];
         var z= path.extname(y);
         
-        if(z == "." + extension)
+        if(z == "." + extension);
         
         console.log(y);
             
